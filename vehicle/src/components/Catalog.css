@@ -1,0 +1,171 @@
+body {
+    background-image: url('https://wallpaperaccess.com/full/11207.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+  width: 100vw;
+    background-position: center center;
+  }
+
+  
+  #heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    color: rgb(253, 255, 255);
+  }
+  .vehicle-table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 14%;
+    background-color: #fff7f7;
+    
+}
+
+.vehicle-table th {
+    border: 1px solid black;
+    padding: 8px;
+   
+    text-align: left;
+    background-color: rgb(5, 151, 5);
+    font-weight: 700;
+}
+.vehicle-table td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.vehicle-table th {
+    background-color: rgb(15, 182, 15);;
+}
+
+  .search-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 12%;
+    width: 40%;
+    height: 20%;
+  }
+  #searchByType{
+    width: 40%;
+  }
+  .search {
+    margin-right: 20px;
+    padding: 10px;
+    width: 40%;
+    border: 1px solid #ccc;
+    font-size: 16px;
+   
+    height: 30%;
+  }
+  .type{
+    margin-top: 1%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  .title-name-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #eee;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .car-name {
+    flex-basis: 50%;
+  }
+  
+  .country-name {
+    flex-basis: 25%;
+  }
+  
+  .type-name {
+    flex-basis: 25%;
+  }
+
+  .title-name-container:hover {
+    cursor: pointer;
+    background-color: #ddd;
+  }
+  .popup-container {
+    font-size: 16px;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .ownerDetail-name {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .owner-Ceo {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .owner-Address {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: #eee;
+  }
+  .popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal-body {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .ownerDetail-name {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .owner-Ceo {
+    margin-top: 10px;
+  }
+  
+  .owner-Address {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
